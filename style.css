@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    margin: 0 auto;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    display: flex;
+    flex-direction: column
+}
+
+h1{
+    padding: 40px 0px 5px 0px;
+    margin: 0px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.inst{
+    color: white;
+    text-align: center;
+    font-family: Inter;
+}
+
+#inp {
+    border: 1px #4e4e4e solid;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 800;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;   
+    background: none;
+    color: white;
+}
+
+.res-head{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Inter;
+}
+
+.res-val{
+    font-size: 14px;
+    text-align: center;
+    color: #4e4e4e;
+    font-family: Inter;
+}
+
+.btn{
+    margin: 0 auto 10px;
+    border: 1px white solid;
+    background: none;
+    color: white;
+    font-family: Inter;    
+}
