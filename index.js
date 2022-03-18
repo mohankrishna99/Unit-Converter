@@ -1,5 +1,6 @@
 let input = document.getElementById("inp")
-function convert() {
+const convBtn = document.getElementById("conv-btn")
+convBtn.addEventListener("click",function () {
     let inpVal = input.value
     console.log(inpVal)
     let t = document.getElementsByClassName("inp-val")
@@ -12,4 +13,4 @@ function convert() {
     document.getElementById("g-to-l").textContent = (inpVal * 4.54609).toFixed(3)
     document.getElementById("k-to-p").textContent = (inpVal * 2.204623).toFixed(3)
     document.getElementById("p-to-k").textContent = (inpVal * 0.4535924).toFixed(3)
-}
+})
